@@ -10,8 +10,14 @@ body{
 h1 {
     font-family: 'Bungee Shade', cursive;
     color: #c62828;
+    font-size: 0;
+    margin: 0px;
+    letter-spacing: 3px;
+    padding: 0%;
+}
+
+h1 span{
     font-size: 100px;
-    margin: 5px;
 }
 
 #popcorn {
@@ -19,41 +25,398 @@ h1 {
     width: auto;
 }
 
-@keyframes flickerAnimation {
+@keyframes firstLtr {
     0%   { opacity:0; }
+    1%   { opacity:1; }
+    2%   { opacity:0; }
+    3%   { opacity:1; }
+    4%   { opacity:0; }
+    5%   { opacity:1; }
+    6%   { opacity:0; }
     7%   { opacity:1; }
-    9%  { opacity:0; }
-    19%  { opacity:1; }
+    8%   { opacity:1; }
+    9%   { opacity:0; }
+    10%  { opacity:1; }
+    11%  { opacity:0; }
+    12%  { opacity:1; }
+    13%  { opacity:0; }
+    14%  { opacity:1; }
+    15%  { opacity:0; }
+    16%  { opacity:1; }
+    17%  { opacity:0; }
+    18%  { opacity:1; }
+    19%  { opacity:0; }
+    20%  { opacity:1; }
+    21%  { opacity:0; }
+    22%  { opacity:1; }
+    23%  { opacity:0; }
+    24%  { opacity:1; }
     25%  { opacity:0; }
     100% { opacity:1; }
   }
-  @-o-keyframes flickerAnimation{
+  @-o-keyframes firstLtr{
     0%   { opacity:0; }
+    1%   { opacity:1; }
+    2%   { opacity:0; }
+    3%   { opacity:1; }
+    4%   { opacity:0; }
+    5%   { opacity:1; }
+    6%   { opacity:0; }
     7%   { opacity:1; }
-    9%  { opacity:0; }
-    19%  { opacity:1; }
+    8%   { opacity:1; }
+    9%   { opacity:0; }
+    10%  { opacity:1; }
+    11%  { opacity:0; }
+    12%  { opacity:1; }
+    13%  { opacity:0; }
+    14%  { opacity:1; }
+    15%  { opacity:0; }
+    16%  { opacity:1; }
+    17%  { opacity:0; }
+    18%  { opacity:1; }
+    19%  { opacity:0; }
+    20%  { opacity:1; }
+    21%  { opacity:0; }
+    22%  { opacity:1; }
+    23%  { opacity:0; }
+    24%  { opacity:1; }
     25%  { opacity:0; }
     100% { opacity:1; }
   }
-  @-moz-keyframes flickerAnimation{
+  @-moz-keyframes firstLtr{
     0%   { opacity:0; }
+    1%   { opacity:1; }
+    2%   { opacity:0; }
+    3%   { opacity:1; }
+    4%   { opacity:0; }
+    5%   { opacity:1; }
+    6%   { opacity:0; }
     7%   { opacity:1; }
-    9%  { opacity:0; }
-    19%  { opacity:1; }
+    8%   { opacity:1; }
+    9%   { opacity:0; }
+    10%  { opacity:1; }
+    11%  { opacity:0; }
+    12%  { opacity:1; }
+    13%  { opacity:0; }
+    14%  { opacity:1; }
+    15%  { opacity:0; }
+    16%  { opacity:1; }
+    17%  { opacity:0; }
+    18%  { opacity:1; }
+    19%  { opacity:0; }
+    20%  { opacity:1; }
+    21%  { opacity:0; }
+    22%  { opacity:1; }
+    23%  { opacity:0; }
+    24%  { opacity:1; }
     25%  { opacity:0; }
     100% { opacity:1; }
   }
-  @-webkit-keyframes flickerAnimation{
+  @-webkit-keyframes firstLtr{
     0%   { opacity:0; }
+    1%   { opacity:1; }
+    2%   { opacity:0; }
+    3%   { opacity:1; }
+    4%   { opacity:0; }
+    5%   { opacity:1; }
+    6%   { opacity:0; }
     7%   { opacity:1; }
-    9%  { opacity:0; }
-    19%  { opacity:1; }
+    8%   { opacity:1; }
+    9%   { opacity:0; }
+    10%  { opacity:1; }
+    11%  { opacity:0; }
+    12%  { opacity:1; }
+    13%  { opacity:0; }
+    14%  { opacity:1; }
+    15%  { opacity:0; }
+    16%  { opacity:1; }
+    17%  { opacity:0; }
+    18%  { opacity:1; }
+    19%  { opacity:0; }
+    20%  { opacity:1; }
+    21%  { opacity:0; }
+    22%  { opacity:1; }
+    23%  { opacity:0; }
+    24%  { opacity:1; }
     25%  { opacity:0; }
     100% { opacity:1; }
   }
-  .animate-flicker {
-    -webkit-animation: flickerAnimation 4s ;
-    -moz-animation: flickerAnimation 2s ;
-    -o-animation: flickerAnimation 2s ;
-     animation: flickerAnimation 2s ;
+  .first-ltr {
+    -webkit-animation: firstLtr 10s ;
+    -moz-animation: firstLtr 10s ;
+    -o-animation: firstLtr 10s ;
+     animation: firstLtr 10s ;
+ }
+
+ @keyframes secondLtr {
+    0%   { opacity:0; }
+    1%   { opacity:0; }
+    2%   { opacity:1; }
+    3%   { opacity:1; }
+    4%   { opacity:0; }
+    5%   { opacity:0; }
+    6%   { opacity:1; }
+    7%   { opacity:1; }
+    8%   { opacity:0; }
+    9%   { opacity:1; }
+    10%  { opacity:0; }
+    11%  { opacity:0; }
+    12%  { opacity:1; }
+    13%  { opacity:1; }
+    14%  { opacity:0; }
+    15%  { opacity:1; }
+    16%  { opacity:1; }
+    17%  { opacity:1; }
+    18%  { opacity:0; }
+    19%  { opacity:1; }
+    20%  { opacity:0; }
+    21%  { opacity:0; }
+    22%  { opacity:1; }
+    23%  { opacity:1; }
+    24%  { opacity:1; }
+    25%  { opacity:0; }
+    100% { opacity:1; }
+  }
+  @-o-keyframes secondLtr{
+    0%   { opacity:0; }
+    1%   { opacity:0; }
+    2%   { opacity:1; }
+    3%   { opacity:1; }
+    4%   { opacity:0; }
+    5%   { opacity:0; }
+    6%   { opacity:1; }
+    7%   { opacity:1; }
+    8%   { opacity:0; }
+    9%   { opacity:1; }
+    10%  { opacity:0; }
+    11%  { opacity:0; }
+    12%  { opacity:1; }
+    13%  { opacity:1; }
+    14%  { opacity:0; }
+    15%  { opacity:1; }
+    16%  { opacity:1; }
+    17%  { opacity:1; }
+    18%  { opacity:0; }
+    19%  { opacity:1; }
+    20%  { opacity:0; }
+    21%  { opacity:0; }
+    22%  { opacity:1; }
+    23%  { opacity:1; }
+    24%  { opacity:1; }
+    25%  { opacity:0; }
+    100% { opacity:1; }
+  }
+  @-moz-keyframes secondLtr{
+    0%   { opacity:0; }
+    1%   { opacity:0; }
+    2%   { opacity:1; }
+    3%   { opacity:1; }
+    4%   { opacity:0; }
+    5%   { opacity:0; }
+    6%   { opacity:1; }
+    7%   { opacity:1; }
+    8%   { opacity:0; }
+    9%   { opacity:1; }
+    10%  { opacity:0; }
+    11%  { opacity:0; }
+    12%  { opacity:1; }
+    13%  { opacity:1; }
+    14%  { opacity:0; }
+    15%  { opacity:1; }
+    16%  { opacity:1; }
+    17%  { opacity:1; }
+    18%  { opacity:0; }
+    19%  { opacity:1; }
+    20%  { opacity:0; }
+    21%  { opacity:0; }
+    22%  { opacity:1; }
+    23%  { opacity:1; }
+    24%  { opacity:1; }
+    25%  { opacity:0; }
+    100% { opacity:1; }
+  }
+  @-webkit-keyframes secondLtr{
+    0%   { opacity:0; }
+    1%   { opacity:0; }
+    2%   { opacity:1; }
+    3%   { opacity:1; }
+    4%   { opacity:0; }
+    5%   { opacity:0; }
+    6%   { opacity:1; }
+    7%   { opacity:1; }
+    8%   { opacity:0; }
+    9%   { opacity:1; }
+    10%  { opacity:0; }
+    11%  { opacity:0; }
+    12%  { opacity:1; }
+    13%  { opacity:1; }
+    14%  { opacity:0; }
+    15%  { opacity:1; }
+    16%  { opacity:1; }
+    17%  { opacity:1; }
+    18%  { opacity:0; }
+    19%  { opacity:1; }
+    20%  { opacity:0; }
+    21%  { opacity:0; }
+    22%  { opacity:1; }
+    23%  { opacity:1; }
+    24%  { opacity:1; }
+    25%  { opacity:0; }
+    100% { opacity:1; }
+  }
+  .second-ltr {
+    -webkit-animation: secondLtr 10s ;
+    -moz-animation: secondLtr 10s ;
+    -o-animation: secondLtr 10s ;
+     animation: secondLtr 10s ;
+ }
+
+ @keyframes thirdLtr {
+    0%   { opacity:0; }
+    1%   { opacity:0; }
+    2%   { opacity:0; }
+    3%   { opacity:1; }
+    4%   { opacity:1; }
+    5%   { opacity:0; }
+    6%   { opacity:0; }
+    7%   { opacity:1; }
+    8%   { opacity:1; }
+    9%   { opacity:0; }
+    10%  { opacity:1; }
+    11%  { opacity:1; }
+    12%  { opacity:0; }
+    13%  { opacity:0; }
+    14%  { opacity:1; }
+    15%  { opacity:1; }
+    16%  { opacity:0; }
+    17%  { opacity:0; }
+    18%  { opacity:1; }
+    19%  { opacity:0; }
+    20%  { opacity:1; }
+    21%  { opacity:1; }
+    22%  { opacity:0; }
+    23%  { opacity:1; }
+    24%  { opacity:0; }
+    25%  { opacity:0; }
+    100% { opacity:1; }
+  }
+  @-o-keyframes thirdLtr{
+    0%   { opacity:0; }
+    1%   { opacity:0; }
+    2%   { opacity:0; }
+    3%   { opacity:1; }
+    4%   { opacity:1; }
+    5%   { opacity:0; }
+    6%   { opacity:0; }
+    7%   { opacity:1; }
+    8%   { opacity:1; }
+    9%   { opacity:0; }
+    10%  { opacity:1; }
+    11%  { opacity:1; }
+    12%  { opacity:0; }
+    13%  { opacity:0; }
+    14%  { opacity:1; }
+    15%  { opacity:1; }
+    16%  { opacity:0; }
+    17%  { opacity:0; }
+    18%  { opacity:1; }
+    19%  { opacity:0; }
+    20%  { opacity:1; }
+    21%  { opacity:1; }
+    22%  { opacity:0; }
+    23%  { opacity:1; }
+    24%  { opacity:0; }
+    25%  { opacity:0; }
+    100% { opacity:1; }
+  }
+  @-moz-keyframes thirdLtr{
+    0%   { opacity:0; }
+    1%   { opacity:0; }
+    2%   { opacity:0; }
+    3%   { opacity:1; }
+    4%   { opacity:1; }
+    5%   { opacity:0; }
+    6%   { opacity:0; }
+    7%   { opacity:1; }
+    8%   { opacity:1; }
+    9%   { opacity:0; }
+    10%  { opacity:1; }
+    11%  { opacity:1; }
+    12%  { opacity:0; }
+    13%  { opacity:0; }
+    14%  { opacity:1; }
+    15%  { opacity:1; }
+    16%  { opacity:0; }
+    17%  { opacity:0; }
+    18%  { opacity:1; }
+    19%  { opacity:0; }
+    20%  { opacity:1; }
+    21%  { opacity:1; }
+    22%  { opacity:0; }
+    23%  { opacity:1; }
+    24%  { opacity:0; }
+    25%  { opacity:0; }
+    100% { opacity:1; }
+  }
+  @-webkit-keyframes thirdLtr{
+    0%   { opacity:0; }
+    1%   { opacity:0; }
+    2%   { opacity:0; }
+    3%   { opacity:1; }
+    4%   { opacity:1; }
+    5%   { opacity:0; }
+    6%   { opacity:0; }
+    7%   { opacity:1; }
+    8%   { opacity:1; }
+    9%   { opacity:0; }
+    10%  { opacity:1; }
+    11%  { opacity:1; }
+    12%  { opacity:0; }
+    13%  { opacity:0; }
+    14%  { opacity:1; }
+    15%  { opacity:1; }
+    16%  { opacity:0; }
+    17%  { opacity:0; }
+    18%  { opacity:1; }
+    19%  { opacity:0; }
+    20%  { opacity:1; }
+    21%  { opacity:1; }
+    22%  { opacity:0; }
+    23%  { opacity:1; }
+    24%  { opacity:0; }
+    25%  { opacity:0; }
+    100% { opacity:1; }
+  }
+  .third-ltr {
+    -webkit-animation: thirdLtr 10s ;
+    -moz-animation: thirdLtr 10s ;
+    -o-animation: thirdLtr 10s ;
+     animation: thirdLtr 10s ;
+ }
+
+ @keyframes defaultLtr {
+    0%   { opacity:0; }
+    25%  { opacity:0; }
+    100% { opacity:1; }
+  }
+  @-o-keyframes defaultLtr {
+    0%   { opacity:0; }
+    25%  { opacity:0; }
+    100% { opacity:1; }
+  }
+  @-moz-keyframes defaultLtr {
+    0%   { opacity:0; }
+    25%  { opacity:0; }
+    100% { opacity:1; }
+  }
+  @-webkit-keyframes defaultLtr {
+    0%   { opacity:0; }
+    25%  { opacity:0; }
+    100% { opacity:1; }
+  }
+  .default-ltr {
+    -webkit-animation: defaultLtr 10s ;
+    -moz-animation: defaultLtr 10s ;
+    -o-animation: defaultLtr 10s ;
+     animation: defaultLtr 10s ;
  }
