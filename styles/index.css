@@ -14,10 +14,16 @@ h1 {
     margin: 0px;
     letter-spacing: 3px;
     padding: 0%;
+    white-space: nowrap;
 }
 
 h1 span{
     font-size: 100px;
+    display: inline-block;
+}
+
+#endOfWord {
+  margin-right: 30px;
 }
 
 #popcorn {
